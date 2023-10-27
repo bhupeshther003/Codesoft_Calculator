@@ -6,8 +6,7 @@
 }
 
 body {
-	/* background: #523d3d; */
-	background-image: url('https://img.freepik.com/free-photo/leafy-tree-branch-vibrant-autumn-colors-generated-by-ai_188544-10399.jpg?size=626&ext=jpg&ga=GA1.1.1894509154.1698148416&semt=ais');
+	background: url('https://img.freepik.com/free-photo/vibrant-autumn-maple-leaves-nature-beauty-showcased-generated-by-ai_188544-15039.jpg?size=626&ext=jpg&ga=GA1.1.1894509154.1698148416&semt=ais');
 	-moz-user-select: none;
 	-khtml-user-select: none;
 	-webkit-user-select: none;
@@ -24,11 +23,11 @@ body {
 	display: block;
 	height: auto;
 	width: 278px;
-	background-color: rgb(233, 217, 217);
+	background-color: rgb(245, 233, 233);
 	font-size: 0.8em;
 	padding: 5px;
 	max-width: 320px;
-	border: 1px solid black;
+	border:1px solid black;
 }
 #calculator:before,
 #calculator:after {
@@ -59,8 +58,6 @@ body {
 	position: absolute;
 	top: 3px;
 	right: 10px;
-	color:#f55e5e;
-	font-weight: 700;
 }
 
 #result {
@@ -70,7 +67,7 @@ body {
 	font-size: 2.5em;
 	font-family: 'Oxygen Mono', monospace;
 	background: inherit;
-	color: rgb(221, 221, 221);
+	color: black;
 }
 
 button {
@@ -79,27 +76,26 @@ button {
 	margin: 4px 2px;
 	outline: none;
 	border: none;
-	background: rgb(154, 247, 49);
-	color: rgb(0, 0, 0);
+	background: rgb(96, 238, 14);
+	color: black;
 	border-radius: 5px;
 	font-size: 1.4em;
-	box-shadow: 2px 3px 3px black;
-	border:1px solid black
+	border: 1px solid black;
 }
 
 button:active {
-	background: #bfbfbf;
+	background: #23fd6c;
 }
 
 button:nth-child(2) {
 	margin-left: 205px;
 	display: block;
-	background: #e91c1c;
+	background: #f31b1b;
 	color: white;
 }
 
 button:nth-child(2):active {
-	background: #d4cdcd;
+	background: #b14e4d;
 }
 
 button:nth-child(6),
@@ -107,9 +103,8 @@ button:nth-child(10),
 button:nth-child(14),
 button:nth-child(17),
 button:nth-child(18) {
-	background: #3cb2e9;
+	background: #22c1f1;
 	color: white;
-    font-weight: bold;
 }
 
 button:nth-child(6):active,
@@ -117,7 +112,7 @@ button:nth-child(10):active,
 button:nth-child(14):active,
 button:nth-child(17):active,
 button:nth-child(18):active {
-	background: #218d7e;
+	background: #23db23;
 }
 
 footer {
